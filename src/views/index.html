@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> <%=title%> </title>
+        <%- include ('partials/head.html') %>
+        <style>
+            body {
+                font-family:'Spicy Rice', ;
+            }
+        </style>
+    </head>
+    <body>
+      <%- include ('partials/navigation.html') %>
+   <div class= "container">
+    <header class="row">
+       <div class="col-lg-12 text-center">
+       <img src="/img/90.gif" alt= "Logo">
+       </div>
+       
+
+    </header>
+   </div>
+   <!---SECTION ONE-->
+   <div class="container-fluid" id="about">
+   <div class="row bg-light text-black p-5 text-center" >
+        <div class="col-sm-6">
+                <i class="fab fa-instagram fa-10x"></i>
+        </div>
+        <div class="col-sm-6">
+           <h3>Bienvenidos a mi pagina web </h3>
+            <p>Esta es mi primera pagina web usando nodejs</p>
+            <a href="https://instagram.com/ivanagarcia_">Instagram</a>
+        </div>
+   </div>
+   <%-include ('partials/footer.html')%>
+    </body>
+</html>
